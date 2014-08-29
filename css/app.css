@@ -33,6 +33,12 @@ img{
     padding: 0 10px;
 }
 
+@media (min-width: 768px) {
+    .step p{
+        height: 116px;
+    }
+}
+
 .paticka{
     background-color: #eeeeee;
     border-top: 1px solid #dddddd;
