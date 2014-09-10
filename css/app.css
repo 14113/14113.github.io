@@ -21,21 +21,22 @@ img{
     background-color: #eeeeee;
     border-bottom: 1px solid #dddddd;
 }
-.hlavicka img{
-    margin-top: 40px;
-}
+
 @media (max-width: 1199px) {
     .hlavicka img{
-        margin-top: 212px;
+        margin-top: 155px;
     }
 }
 .step p{
-    padding: 0 10px;
+    padding: 6px 10px 0;
 }
 
 @media (min-width: 768px) {
     .step p{
-        height: 116px;
+        height: 130px;
+    }
+    #arrow{
+        font-size: 23px;
     }
 }
 
@@ -60,7 +61,7 @@ h1{
     margin-bottom: 52px;
     margin-top: 69px;
 }
-h1 div{
+h1 span{
     font-weight: 300;
     color: #999999;
     font-size: 35px;
@@ -96,7 +97,7 @@ p{
     margin-bottom: 30px;
 }
 .kontaktBlok a{
-    background-color: #29cc5f;
+    background-color: rgb(18, 121, 70);
     border-radius: 5px;
     color: white;
     display: inline-block;
