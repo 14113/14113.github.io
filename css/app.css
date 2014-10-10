@@ -24,7 +24,7 @@ img{
 
 @media (max-width: 1199px) {
     .hlavicka img{
-        margin-top: 170px;
+        margin-top: 175px;
     }
 }
 .step p{
@@ -58,13 +58,24 @@ img{
 h1{
     font-size: 49px;
     font-weight: 700;
-    margin-bottom: 52px;
+    margin-bottom: 30px;
     margin-top: 69px;
 }
 h1 span{
+    display: block;
     font-weight: 300;
     color: #999999;
     font-size: 35px;
+}
+.title{
+    font-size: 28px;
+    font-weight: 700;
+    padding-bottom: 14px;
+}
+@media (min-width: 768px) {
+    .title{
+        font-size: 24px;
+    }
 }
 h2{
     font-size: 38px;
@@ -113,7 +124,7 @@ p{
     text-decoration: none;
 }
 .citat{
-    font-size: 30px;
+    font-size: 20px;
     font-style: italic;
     line-height: 34px;
     margin-bottom: 31px;
