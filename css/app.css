@@ -126,6 +126,10 @@ p{
     margin-bottom: 31px;
 }
 
+#project-list a{
+    font-size: 16px;
+}
+
 .reference{
     font-style: italic;
     position: relative;
