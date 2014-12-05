@@ -45,6 +45,11 @@ img{
     }
 }
 
+#language{
+    z-index: 10;
+    position: relative;
+}
+
 .paticka{
     background-color: #eeeeee;
     border-top: 1px solid #dddddd;
