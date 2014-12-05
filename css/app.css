@@ -21,11 +21,15 @@ img{
     border-bottom: 1px solid #dddddd;
 }
 
+.hlavicka img{
+    margin-top: -40px;
+}
+
 @media (max-width: 1199px) {
     .hlavicka img{
         width: 470px;
         height: 532px;
-        margin-top: 153px;
+        margin-top: 114px;
     }
 }
 .step p{
