@@ -32,6 +32,14 @@ img{
         margin-top: 114px;
     }
 }
+@media (max-width: 991px) {
+    .hlavicka img{
+        width: 100px;
+        height: 100px;
+        margin-right: 20px;
+        margin-top: 0;
+    }
+}
 .step p{
     padding: 6px 10px 0;
 }
