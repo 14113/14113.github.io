@@ -25,6 +25,14 @@ img{
     margin-top: -40px;
 }
 
+blockquote {
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  border-left: none;
+  text-align: justify;
+}
+
 @media (max-width: 1199px) {
     .hlavicka img{
         width: 470px;
@@ -129,7 +137,7 @@ h3{
 h3 span{
     font-weight: 300;
     color: #999999;
-    font-size: 29px;
+    font-size: 28px;
 }
 p{
     font-size: 18px;
@@ -171,7 +179,7 @@ p{
 .reference{
     font-style: italic;
     position: relative;
-    padding-bottom: 50px;
+    padding-bottom: 34px;
     margin-bottom: 50px;
     font-size: 18px;
 }
