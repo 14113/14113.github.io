@@ -10,7 +10,7 @@ gem "middleman-livereload", "~> 3.1.0"
 
 gem "middleman-google-analytics"
 
-gem 'middleman-dokku', git: 'https://github.com/ngmaloney/middleman-dokku.git'
+gem 'middleman-gh-pages'
 
 # For faster file watcher updates on Windows:
 gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
